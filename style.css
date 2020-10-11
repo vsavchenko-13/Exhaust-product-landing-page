@@ -1,0 +1,168 @@
+body {
+    background-color: whitesmoke;
+    margin: 0%;
+    padding: 0;
+    background-image: url(https://www.textures.com/system/gallery/photos/PBR%20Materials/ps133180/133180_header.jpg);    
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header {
+    display: flex;
+    height: 50px;
+    background-color: #c5c6c7;
+    color: white;
+}
+ 
+.img-link {
+    size: 100%;
+    display: flex;
+    height: 50px;
+    
+}
+
+.nav-buttons {
+    
+    display: table;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 50px;
+}
+
+.nav-link {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    position: relative;
+}
+
+.form {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    color: white;
+}
+
+.input-label {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 1%;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin: 1% 40%;
+    height: 25px;
+    border-radius: 5px;
+    
+}
+
+.submit {
+    background-color: rgb(255, 102, 0);
+    margin: .5% 45%;
+    border-radius: 3px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.facts-summary {
+    color: white;
+    margin: 10px;
+}
+
+.quick-facts {
+    font-size: 20px;
+    
+}
+
+.li-facts {
+    margin: 10px 5px;
+    color: white;
+}
+
+.info {
+    display: flex;
+    max-width: 400px;
+    color: white;
+    padding: 2px;   
+}
+ 
+
+
+.valved-img, .valvless-img {
+    display: flex;
+    size: 100%;
+    width: 400px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;    
+    margin-top: 30px;
+}
+
+.final-price {
+    background-color: rgb(255, 79, 79);
+    font-size: 35px;
+    font-weight: 900;    
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+    opacity: .75;
+}
+
+.final-price:hover {
+    opacity: 1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;   
+}
+
+.pricing li {
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+}
+
+.valved, .valvless {
+    text-decoration: none;
+    background-color: #bab2b5;
+    border-radius: 20px;
+    padding-right: 3%;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #c5c6c7 ;
+    color: white;
+    height: 50px;
+    text-align: right;
+    right: 0;
+}
+
+.footer-div {
+    font-size: 20px;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
